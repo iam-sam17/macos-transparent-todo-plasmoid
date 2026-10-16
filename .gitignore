@@ -1,0 +1,6 @@
+*.plasmoid
+.directory
+*~
+*.swp
+*.bak
+.DS_Store

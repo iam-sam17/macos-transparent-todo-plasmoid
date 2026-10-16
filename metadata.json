@@ -1,0 +1,21 @@
+{
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "minhaz@local",
+                "Name": "Minhaz"
+            }
+        ],
+        "Category": "Utilities",
+        "Description": "macOS-style 100% transparent floating To-Do List widget for KDE Plasma 6",
+        "Icon": "view-calendar-tasks",
+        "Id": "org.minhaz.macos.transparent.todo",
+        "Name": "macOS Floating To-Do",
+        "Version": "1.0.2",
+        "Website": ""
+    },
+    "KPackageStructure": "Plasma/Applet",
+    "X-Plasma-API": "declarativeappletscript",
+    "X-Plasma-MainScript": "ui/main.qml",
+    "X-Plasma-API-Minimum-Version": "6.0"
+}
