@@ -8,6 +8,10 @@
 
 A frameless, floating to-do and reminders plasmoid built natively for **KDE Plasma 6 (Wayland and X11)**. Implemented using QtQuick, Kirigami, and Plasma 6 Declarative Applet APIs, providing clean desktop rendering with zero opaque container backgrounds, inline task editing, multi-tier priority indexing, and dual-layer local persistence.
 
+<p align="center">
+  <img src="assets/preview.png" alt="macOS Floating To-Do on KDE Plasma 6" width="360" />
+</p>
+
 ---
 
 ## Technical Specifications & Features
