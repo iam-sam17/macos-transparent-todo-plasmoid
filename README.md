@@ -9,9 +9,9 @@
 A frameless, floating macOS-style Reminders & To-Do List widget built natively for **KDE Plasma 6 (Wayland and X11)**. Engineered with QtQuick, Kirigami, and Plasma 6 Applet APIs, delivering 100% transparent desktop integration with nested subtasks, customizable categories, native KDE configuration dialog (KCM), priority-based auto-sorting, and dual-layer local persistence.
 
 <p align="center">
-  <img src="assets/preview_tasks.png" alt="macOS Floating Reminders Active Tasks" width="45%" />
+  <img src="assets/preview_dark.png" alt="macOS Floating Reminders on Dark Wallpaper" width="46%" />
   &nbsp;&nbsp;
-  <img src="assets/preview_empty.png" alt="macOS Floating Reminders Empty State" width="45%" />
+  <img src="assets/preview_light.png" alt="macOS Floating Reminders on Light Wallpaper" width="46%" />
 </p>
 
 ---
@@ -133,8 +133,8 @@ systemctl --user restart plasma-plasmashell.service
 ```text
 macos-transparent-todo-plasmoid/
 ├── assets/
-│   ├── preview_tasks.png   # Active tasks state preview
-│   └── preview_empty.png   # Empty state canvas preview
+│   ├── preview_dark.png    # Dark wallpaper floating preview
+│   └── preview_light.png   # Light wallpaper dynamic contrast preview
 ├── contents/
 │   ├── config/
 │   │   ├── config.qml      # Plasma KCM settings category model
