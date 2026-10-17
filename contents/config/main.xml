@@ -3,19 +3,47 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.kde.org/standards/kcfg/1.0
       http://www.kde.org/standards/kcfg/1.0/kcfg.xsd">
-  <kcfgfile/>
-  <group name="General">
-    <entry name="tasksJson" type="String">
-      <default>[]</default>
-    </entry>
-    <entry name="widgetTitle" type="String">
-      <default>Reminders</default>
-    </entry>
-    <entry name="filterMode" type="String">
-      <default>all</default>
-    </entry>
-    <entry name="hasCompletedIntro" type="Bool">
-      <default>false</default>
-    </entry>
-  </group>
+    <kcfgfile name=""/>
+
+    <group name="General">
+        <entry name="widgetTitle" type="String">
+            <default>Reminders</default>
+        </entry>
+        <entry name="showDateHeader" type="Bool">
+            <default>true</default>
+        </entry>
+        <entry name="alwaysShowInput" type="Bool">
+            <default>true</default>
+        </entry>
+        <entry name="fontFamily" type="String">
+            <default>Sans Serif</default>
+        </entry>
+        <entry name="fontSize" type="Int">
+            <default>15</default>
+        </entry>
+        <entry name="fontBold" type="Bool">
+            <default>false</default>
+        </entry>
+        <entry name="fontItalic" type="Bool">
+            <default>false</default>
+        </entry>
+        <entry name="textShadow" type="Bool">
+            <default>true</default>
+        </entry>
+        <entry name="textColor" type="String">
+            <default>#FFFFFF</default>
+        </entry>
+        <entry name="dateAccentColor" type="String">
+            <default>#38BDF8</default>
+        </entry>
+        <entry name="sortByPriority" type="Bool">
+            <default>false</default>
+        </entry>
+        <entry name="tasksJson" type="String">
+            <default>[]</default>
+        </entry>
+        <entry name="categoriesJson" type="String">
+            <default>["All", "Personal", "Work", "Urgent"]</default>
+        </entry>
+    </group>
 </kcfg>

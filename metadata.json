@@ -7,12 +7,13 @@
             }
         ],
         "Category": "Utilities",
-        "Description": "macOS-style 100% transparent floating To-Do List widget for KDE Plasma 6",
-        "Icon": "view-calendar-tasks",
+        "Description": "100% Transparent macOS-style Floating Reminders & To-Do List for KDE Plasma 6 (Wayland & X11) with Subtasks, Priorities, Categories, and Custom Fonts.",
+        "Icon": "view-pim-tasks",
         "Id": "org.minhaz.macos.transparent.todo",
-        "Name": "macOS Floating To-Do",
-        "Version": "1.0.2",
-        "Website": ""
+        "License": "MIT",
+        "Name": "macOS Floating Reminders",
+        "Version": "2.0.0",
+        "Website": "https://github.com/iam-sam17/macos-transparent-todo-plasmoid"
     },
     "KPackageStructure": "Plasma/Applet",
     "X-Plasma-API": "declarativeappletscript",
